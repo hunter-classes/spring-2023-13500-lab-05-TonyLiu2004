@@ -4,5 +4,5 @@
 
 // add your tests here
 TEST_CASE("isDivisibleBy"){
-    CHECK(isDivisibleBy(10,5) == true);
+    CHECK(nextPrime(5) == 7);
 }
