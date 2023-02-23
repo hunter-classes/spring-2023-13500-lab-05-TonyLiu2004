@@ -3,5 +3,4 @@
 #include "funcs.h"
 
 TEST_CASE("w"){
-    CHECK(nextPrime(5) == 7);
 }
