@@ -2,7 +2,6 @@
 #include "doctest.h"
 #include "funcs.h"
 
-// add your tests here
-TEST_CASE("isDivisibleBy"){
+TEST_CASE("w"){
     CHECK(nextPrime(5) == 7);
 }
