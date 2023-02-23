@@ -1,9 +1,9 @@
 #pragma once
 
-bool isDivisibleBy(int, int);
-bool isPrime(int);
-int nextPrime(int);
-int countPrimes(int, int);
-bool isTwinPrime(int);
-int nextTwinPrime(int);
-int largestTwinPrime(int, int);
+bool isDivisibleBy(int a, int b);
+bool isPrime(int a);
+int nextPrime(int a);
+int countPrimes(int a, int b);
+bool isTwinPrime(int a);
+int nextTwinPrime(int a);
+int largestTwinPrime(int a, int b);
