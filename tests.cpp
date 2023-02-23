@@ -1,7 +1,7 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
 #include "funcs.h"
-/**
+
 TEST_CASE("isDivisibleBy"){
     CHECK(isDivisibleBy(10,15) == true);
     CHECK(isDivisibleBy(20,3) == true);
@@ -40,4 +40,3 @@ TEST_CASE("largestTwinPrime"){
     CHECK(isDivisibleBy(1,31) == 31);
     CHECK(isDivisibleBy(14,16) == -1);
 }
-*/
