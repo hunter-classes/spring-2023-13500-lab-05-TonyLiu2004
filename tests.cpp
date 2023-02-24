@@ -3,10 +3,10 @@
 #include "funcs.h"
 
 TEST_CASE("isDivisibleBy"){
-  CHECK(isDivisibleBy(25,5)==true);
-  CHECK(isDivisibleBy(37,18)==false);
+  CHECK(isDivisibleBy(10,5) == true);
+  CHECK(isDivisibleBy(20,3) == false);
+  CHECK(isDivisibleBy(126,252) == true);
 }
-/*
 TEST_CASE("isPrime"){
     CHECK(isPrime(15) == false);
     CHECK(isPrime(41) == true);
@@ -39,4 +39,3 @@ TEST_CASE("largestTwinPrime"){
     CHECK(isDivisibleBy(1,31) == 31);
     CHECK(isDivisibleBy(14,16) == -1);
 }
-*/
