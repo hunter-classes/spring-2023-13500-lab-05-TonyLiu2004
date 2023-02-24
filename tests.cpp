@@ -5,8 +5,9 @@
 TEST_CASE("isDivisibleBy"){
   CHECK(isDivisibleBy(10,5) == true);
   CHECK(isDivisibleBy(20,3) == false);
-  CHECK(isDivisibleBy(126,252) == true);
+  CHECK(isDivisibleBy(126,252) == false);
 }
+
 TEST_CASE("isPrime"){
     CHECK(isPrime(15) == false);
     CHECK(isPrime(41) == true);
@@ -35,7 +36,7 @@ TEST_CASE("nextTwinPrime"){
 }
 
 TEST_CASE("largestTwinPrime"){
-    CHECK(isDivisibleBy(5,18) == 17);
-    CHECK(isDivisibleBy(1,31) == 31);
-    CHECK(isDivisibleBy(14,16) == -1);
+    CHECK(largestTwinPrime(5,18) == 17);
+    CHECK(largestTwinPrime(1,31) == 31);
+    CHECK(largestTwinPrime(14,16) == -1);
 }
