@@ -1,9 +1,10 @@
 #include <iostream>
 #include "funcs.h"
 
-using namespace std;
+//using namespace std;
 int main()
 {
+  /*
     cout << "isDivisibleBy: " << "\n";
     cout << isDivisibleBy(10,5) << "\n";
     cout << isDivisibleBy(20,3) << "\n";
@@ -34,6 +35,6 @@ int main()
     cout << largestTwinPrime(5,18) << "\n";
     cout << largestTwinPrime(1,31) << "\n";
     cout << largestTwinPrime(14,16) << "\n";
-    
+    **/
   return 0;
 }
